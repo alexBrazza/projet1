@@ -1,0 +1,116 @@
+
+.bg-ac1 {
+    background:linear-gradient(
+      rgba(22, 22, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)), 
+      url(Image/Scooter/trottinette_2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+.bg-ac1:hover {
+    background-image: url(Image/Scooter/trottinette_3.jpg);
+    border: solid 3px #222222;
+}
+.bg-ac2 {
+    background: linear-gradient(
+      rgba(22, 22, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)),  
+      url(Image/hoverboard/hoverboard_1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 49%;
+    z-index: 1;
+
+}
+
+.bg-ac2:hover {
+    background-image: url(Image/hoverboard/hoverboard_5.jpg);
+    border: solid 3px #222222;
+}
+
+.bg-ac3 {
+    background:linear-gradient(
+      rgba(22, 22, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)),
+      url(Image/E-bike/velo_1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 49%;
+}
+
+.bg-ac3:hover {
+    background-image: url(Image/E-bike/velo_2.jpg);
+    border: solid 3px #222222;
+}
+
+.bg-ac4 {
+    background:linear-gradient(
+      rgba(22, 22, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)),
+      url(Image/accessoires.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bg-ac4:hover {
+    background-image: url(Image/accessoires_1.jpg);
+    border: solid 3px #222222;
+}
+
+
+.row .ac{
+    height: 450px;
+
+} 
+
+@media screen and (max-width: 576px) { 
+    .row .ac {
+        height: 250px;
+} 
+    .bg-ac1 {
+        background-position: center;
+    }
+    .bg-ac4 {
+        background-position: center;
+    }
+    
+    h2 {
+        font-size: 15px;
+    }
+    
+    }
+
+ @media screen and (max-width: 768px){ 
+
+     .bg-ac1{
+        background-position: center;
+}
+     .bg-ac4{
+        background-position: center;
+} 
+     .ac {
+        padding: 0;
+     }
+     .row .ac {
+        height: 175px;
+} 
+     .bg-ac2 {
+        height: 50%;
+} 
+     .bg-ac3 {
+        height: 50%;
+} 
+     
+     
+}
+
+.text-ac {
+    position: relative;
+    }
+h2 {
+font-family: 'Merriweather', sans-serif;
+}
